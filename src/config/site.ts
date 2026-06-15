@@ -23,7 +23,11 @@ export const profile = {
   // Profile picture. Drop your photo into the /public folder and set the
   // filename here, e.g. "/profile.jpg". The bundled placeholder is used
   // until you replace it.
-  avatar: "/profile.svg",
+  avatar: "/blue_shirt_square.png",
+  // Zoom level for the avatar inside its circle. 1 = default fill.
+  // Lower it to zoom OUT (show more of the photo), e.g. 0.9.
+  // Raise it to zoom IN, e.g. 1.2.
+  avatarZoom: 1,
   // Used for the browser tab title + social share previews.
   siteUrl: "https://links.stonewerner.com",
 };
@@ -66,7 +70,7 @@ export const links: LinkItem[] = [
   {
     title: "Gorilla Mind",
     href: "https://gorillamind.com/stone",
-    subtitle: "Supplements I actually use",
+    subtitle: "Best fitness supplements in the game",
     badge: "10% off",
     code: "STONE",
     icon: "link",

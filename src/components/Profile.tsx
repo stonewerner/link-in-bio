@@ -4,7 +4,7 @@ import { profile } from "@/config/site";
 export function Profile() {
   return (
     <header className="flex flex-col items-center text-center">
-      <div className="relative h-28 w-28 overflow-hidden rounded-full ring-2 ring-black/5 shadow-lg dark:ring-white/10">
+      <div className="relative h-28 w-28 overflow-hidden rounded-full bg-zinc-100 ring-2 ring-black/5 shadow-lg dark:bg-zinc-800 dark:ring-white/10">
         <Image
           src={profile.avatar}
           alt={profile.name}
@@ -12,6 +12,7 @@ export function Profile() {
           priority
           sizes="112px"
           className="object-cover"
+          style={{ transform: `scale(${profile.avatarZoom ?? 1})` }}
         />
       </div>
 
