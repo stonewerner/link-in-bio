@@ -19,7 +19,7 @@ export const profile = {
   // Short tagline shown under your name (keep it punchy).
   tagline: "Full-stack engineer · NYC",
   // A sentence or two about you.
-  bio: "Building at the intersection of AI, startups, and how people win online. I share what I learn about tech, building products, and personal finance.",
+  bio: "Software engineer working in AI, startups, and online media. I share what I learn about tech, building products, and personal finance.",
   // Profile picture. Drop your photo into the /public folder and set the
   // filename here, e.g. "/profile.jpg". The bundled placeholder is used
   // until you replace it.
@@ -37,10 +37,10 @@ export const profile = {
 //  Reorder, remove, or add. Set to [] to hide the row.
 // ---------------------------------------------------------------------------
 export const socials: { label: string; href: string; icon: IconName }[] = [
-  { label: "Instagram", href: "https://instagram.com/", icon: "instagram" },
-  { label: "TikTok", href: "https://tiktok.com/", icon: "tiktok" },
-  { label: "GitHub", href: "https://github.com/", icon: "github" },
-  { label: "LinkedIn", href: "https://linkedin.com/in/", icon: "linkedin" },
+  { label: "Instagram", href: "https://instagram.com/stone.werner", icon: "instagram" },
+  { label: "TikTok", href: "https://tiktok.com/@stonewerner", icon: "tiktok" },
+  { label: "GitHub", href: "https://github.com/stonewerner", icon: "github" },
+  { label: "LinkedIn", href: "https://linkedin.com/in/stonewerner", icon: "linkedin" },
   { label: "Website", href: "https://stonewerner.com", icon: "website" },
 ];
 
