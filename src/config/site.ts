@@ -77,6 +77,15 @@ export const links: LinkItem[] = [
     featured: true,
   },
 
+  {
+    title: "NG Peptide",
+    href: "https://ngpeptide.com",
+    subtitle: "Top source for peptides for sports performance research",
+    badge: "Use code STONE",
+    code: "STONE",
+    icon: "link",
+  },
+
   // ▼▼▼  ADD MORE LINKS HERE  ▼▼▼
   // {
   //   title: "More coming soon",
