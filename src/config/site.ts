@@ -79,7 +79,7 @@ export const links: LinkItem[] = [
 
   {
     title: "NG Peptide",
-    href: "https://ngpeptide.com",
+    href: "https://ngpeptide.com/?ref=ksjfhspu",
     subtitle: "Top source for peptides for sports performance research",
     badge: "Use code STONE",
     code: "STONE",
